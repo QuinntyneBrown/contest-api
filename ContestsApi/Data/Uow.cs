@@ -26,7 +26,7 @@ namespace ContestsApi.Data
         }
 
         public IRepository<Models.Contest> Contests { get { return GetStandardRepo<Models.Contest>(); } }
-        
+        public IRepository<Models.ContestEntryForm> ContestEntryForms { get { return GetStandardRepo<Models.ContestEntryForm>(); } }
 
         protected void ConfigureDbContext(IDbContext dbContext)
         {

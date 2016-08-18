@@ -13,6 +13,7 @@ namespace ContestsApi.Data
         }
 
         public DbSet<Models.Contest> Contests { get; set; }
+        public DbSet<Models.ContestEntryForm> ContestEntryForms { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
