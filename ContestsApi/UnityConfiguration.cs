@@ -21,7 +21,7 @@ namespace ContestsApi
             container.RegisterType<IEncryptionService, EncryptionService>();
             container.RegisterType<ILogger, Logger>();
             container.RegisterType<IContestService, ContestService>();
-            container.RegisterType<IContestEntryFormService, ContestEntryFormService>();
+            container.RegisterType<IContestEntryService, ContestEntryService>();
             container.RegisterInstance(AuthConfiguration.LazyConfig);            
             return container;
         }

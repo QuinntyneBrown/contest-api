@@ -1,3 +1,4 @@
+using ContestsApi.Models;
 using System.Data.Entity;
 
 namespace ContestsApi.Data
@@ -12,8 +13,8 @@ namespace ContestsApi.Data
             Configuration.AutoDetectChangesEnabled = true;
         }
 
-        public DbSet<Models.Contest> Contests { get; set; }
-        public DbSet<Models.ContestEntryForm> ContestEntryForms { get; set; }
+        public DbSet<Contest> Contests { get; set; }
+        public DbSet<ContestEntry> ContestEntries { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -1,9 +1,11 @@
+using ContestsApi.Models;
+
 namespace ContestsApi.Data
 {
     public interface IUow
     {
-        IRepository<Models.Contest> Contests { get; }
-        IRepository<Models.ContestEntryForm> ContestEntryForms { get; }
+        IRepository<Contest> Contests { get; }
+        IRepository<ContestEntry> ContestEntries { get; }
         void SaveChanges();
     }
 }

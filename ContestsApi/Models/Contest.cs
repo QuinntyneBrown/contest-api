@@ -6,7 +6,7 @@ namespace ContestsApi.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public ICollection<ContestEntryForm> ContestEntryForms { get; set; } = new HashSet<ContestEntryForm>();
+        public ICollection<ContestEntry> ContestEntryies { get; set; } = new HashSet<ContestEntry>();
         public bool IsDeleted { get; set; }
     }
 }

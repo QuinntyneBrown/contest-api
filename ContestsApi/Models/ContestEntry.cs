@@ -2,7 +2,7 @@
 
 namespace ContestsApi.Models
 {
-    public class ContestEntryForm
+    public class ContestEntry
     {
         public int Id { get; set; }
         [ForeignKey("Contest")]

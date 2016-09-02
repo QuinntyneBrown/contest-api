@@ -219,8 +219,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\app\contests\" />
-    <Folder Include="src\app\shared\" />
+    <Folder Include="src\app\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="src\main.ts" />

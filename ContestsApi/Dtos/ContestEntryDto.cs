@@ -1,14 +1,14 @@
 namespace ContestsApi.Dtos
 {
-    public class ContestEntryFormDto
+    public class ContestEntryDto
     {
-        public ContestEntryFormDto(ContestsApi.Models.ContestEntryForm entity)
+        public ContestEntryDto(ContestsApi.Models.ContestEntry entity)
         {
             this.Id = entity.Id;
             this.Name = entity.Name;
         }
 
-        public ContestEntryFormDto()
+        public ContestEntryDto()
         {
             
         }

@@ -204,7 +204,7 @@
     <Compile Include="Infrastructure\Constants.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Contest.cs" />
-    <Compile Include="Models\ContestEntryForm.cs" />
+    <Compile Include="Models\ContestEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ContestService.cs" />
     <Compile Include="Services\Cache.cs" />
@@ -223,12 +223,12 @@
     <Compile Include="Utilities\ILoggerProvider.cs" />
     <Compile Include="Utilities\Logger.cs" />
     <Compile Include="Utilities\LoggerFactory.cs" />
-    <Compile Include="Services\ContestEntryFormService.cs" />
-    <Compile Include="Services\IContestEntryFormService.cs" />
-    <Compile Include="Dtos\ContestEntryFormDto.cs" />
-    <Compile Include="Dtos\ContestEntryFormAddOrUpdateRequestDto.cs" />
-    <Compile Include="Dtos\ContestEntryFormAddOrUpdateResponseDto.cs" />
-    <Compile Include="Controllers\ContestEntryFormController.cs" />
+    <Compile Include="Dtos\ContestEntryDto.cs" />
+    <Compile Include="Dtos\ContestEntryAddOrUpdateRequestDto.cs" />
+    <Compile Include="Dtos\ContestEntryAddOrUpdateResponseDto.cs" />
+    <Compile Include="Services\ContestEntryService.cs" />
+    <Compile Include="Services\IContestEntryService.cs" />
+    <Compile Include="Controllers\ContestEntryController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

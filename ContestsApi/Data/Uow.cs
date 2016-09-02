@@ -1,3 +1,4 @@
+using ContestsApi.Models;
 using System;
 
 namespace ContestsApi.Data
@@ -25,8 +26,8 @@ namespace ContestsApi.Data
             RepositoryProvider = repositoryProvider;
         }
 
-        public IRepository<Models.Contest> Contests { get { return GetStandardRepo<Models.Contest>(); } }
-        public IRepository<Models.ContestEntryForm> ContestEntryForms { get { return GetStandardRepo<Models.ContestEntryForm>(); } }
+        public IRepository<Contest> Contests { get { return GetStandardRepo<Contest>(); } }
+        public IRepository<ContestEntry> ContestEntries { get { return GetStandardRepo<ContestEntry>(); } }
 
         protected void ConfigureDbContext(IDbContext dbContext)
         {
