@@ -202,6 +202,18 @@
     <Content Include="src\app\app.component.scss">
       <DependentUpon>app.component.ts</DependentUpon>
     </Content>
+    <Content Include="src\app\components\contest-entry-button\contest-entry-button.component.html">
+      <DependentUpon>contest-entry-button.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\contest-entry-button\contest-entry-button.component.scss">
+      <DependentUpon>contest-entry-button.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\dropdown\dropdown.component.html">
+      <DependentUpon>dropdown.component.ts</DependentUpon>
+    </Content>
+    <Content Include="src\app\components\dropdown\dropdown.component.scss">
+      <DependentUpon>dropdown.component.ts</DependentUpon>
+    </Content>
     <Content Include="src\app\pages\home\home-page.component.html">
       <DependentUpon>home-page.component.ts</DependentUpon>
     </Content>
@@ -241,7 +253,9 @@
   <ItemGroup>
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\components\components.module.ts" />
+    <TypeScriptCompile Include="src\app\components\contest-entry-button\index.ts" />
     <TypeScriptCompile Include="src\app\components\contest-entry-form\index.ts" />
+    <TypeScriptCompile Include="src\app\components\dropdown\index.ts" />
     <TypeScriptCompile Include="src\app\components\index.ts" />
     <TypeScriptCompile Include="src\app\environment.ts" />
     <TypeScriptCompile Include="src\app\index.ts" />
@@ -261,6 +275,8 @@
     <TypeScriptCompile Include="src\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\pages\home\home-page.component.ts" />
     <TypeScriptCompile Include="src\app\components\contest-entry-form\contest-entry-form.component.ts" />
+    <TypeScriptCompile Include="src\app\components\contest-entry-button\contest-entry-button.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dropdown\dropdown.component.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
